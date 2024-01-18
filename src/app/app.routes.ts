@@ -3,8 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { SettingsComponent } from './components/settings/settings.component';
-import { PlanningComponent } from './planning/planning.component';
-import { ProjectsComponent } from './projects/projects.component';
+import { PlanningComponent } from './components/planning/planning.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
