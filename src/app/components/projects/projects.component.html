@@ -1,102 +1,22 @@
-<div class="w-80 h-96 relative">
-    <div class="w-64 h-7 left-[28px] top-[32px] absolute">
-        <div class="w-7 h-7 left-[234px] top-[1px] absolute">
-          <div class="w-7 h-7 left-0 top-0 absolute bg-zinc-900 bg-opacity-10 rounded-full">
-            <!-- icon + -->
-          </div>
-          <div class="opacity-40 w-2 h-2 left-[10px] top-[10px] absolute">
-          </div>
-        </div>
-        <div class="left-0 top-0 absolute text-zinc-900 text-3xl font-bold font-['Exo 2'] leading-loose">Projects️</div>
-      </div>
-    <div class="w-64 h-96 left-[28px] top-[100px] absolute">
-        <div class="w-64 h-4 left-0 top-0 absolute">
-            <div class="left-0 top-0 absolute text-zinc-900 text-opacity-50 text-base font-bold font-['Exo 2'] leading-none">Team</div>
-        </div>
-        <!-- Section tasks by project -->
-        <div class="w-64 h-52 left-0 top-[44px] absolute">
-            <div class="w-64 h-4 left-0 top-0 absolute">
-                <div class="left-0 top-0 absolute text-zinc-900 text-base font-bold font-['Exo 2'] leading-none">Projects</div>
-            </div>
-            <div class="w-40 h-44 left-[1px] top-[32px] absolute">
-                <div class="w-36 h-44 left-[23px] top-0 absolute">
-                    <!-- Count tasks for all projects-->
-                    <div class="w-36 h-9 px-4 py-2.5 left-0 top-0 absolute rounded-2xl justify-start items-start gap-2.5 inline-flex">
-                        <div class="text-zinc-900 text-opacity-50 text-base font-semibold font-['Exo 2'] leading-none">All projects (3)</div>
-                    </div>
-                    <!-- Count tasks for 1 project -->
-                    <div class="w-36 h-9 px-4 py-2.5 left-0 top-[46px] absolute bg-zinc-900 bg-opacity-5 rounded-2xl justify-start items-start gap-2.5 inline-flex">
-                        <div class="text-zinc-900 text-base font-semibold font-['Exo 2'] leading-none">Design system</div>
-                    </div>
-                    <!-- Count tasks for 1 project -->
-                    <div class="w-28 h-9 px-4 py-2.5 left-0 top-[92px] absolute rounded-2xl justify-start items-start gap-2.5 inline-flex">
-                        <div class="text-zinc-900 text-opacity-50 text-base font-semibold font-['Exo 2'] leading-none">User flow</div>
-                    </div>
-                    <!-- Count tasks for 1 project -->
-                    <div class="w-32 h-9 px-4 py-2.5 left-0 top-[138px] absolute rounded-2xl justify-start items-start gap-2.5 inline-flex">
-                        <div class="text-zinc-900 text-opacity-50 text-base font-semibold font-['Exo 2'] leading-none">Ux research</div>
-                    </div>
-                </div>
-                <div class="w-3.5 h-44 left-0 top-0 absolute">
-                </div>
-            </div>
-        </div>
-        <!-- Section tasks by state -->
-        <div class="w-64 h-52 left-0 top-[278px] absolute">
-            <div class="w-64 h-4 left-0 top-0 absolute">
-                <div class="left-0 top-0 absolute text-zinc-900 text-base font-bold font-['Exo 2'] leading-none">Tasks</div>
-            </div>
-            <div class="w-44 h-44 left-[1px] top-[32px] absolute">
-                <div class="w-36 h-44 left-[23px] top-0 absolute">
-                    <!-- Count All tasks-->
-                    <div class="w-32 h-9 px-4 py-2.5 left-0 top-0 absolute rounded-2xl justify-start items-start gap-2.5 inline-flex">
-                        <div class="text-zinc-900 text-opacity-50 text-base font-semibold font-['Exo 2'] leading-none">All tasks (11)</div>
-                    </div>
-                    <!-- Count To do tasks-->
-                    <div class="w-24 h-9 px-4 py-2.5 left-0 top-[46px] absolute rounded-2xl justify-start items-start gap-2.5 inline-flex">
-                        <div class="text-zinc-900 text-opacity-50 text-base font-semibold font-['Exo 2'] leading-none">To do (4)</div>
-                    </div>
-                    <!-- Count In progress tasks-->
-                    <div class="w-36 h-9 px-4 py-2.5 left-0 top-[92px] absolute bg-zinc-900 bg-opacity-5 rounded-2xl justify-start items-start gap-2.5 inline-flex">
-                        <div class="text-zinc-900 text-base font-semibold font-['Exo 2'] leading-none">In progress (4)</div>
-                    </div>
-                    <!-- Count Done tasks-->
-                    <div class="w-24 h-9 px-4 py-2.5 left-0 top-[138px] absolute rounded-2xl justify-start items-start gap-2.5 inline-flex">
-                        <div class="text-zinc-900 text-opacity-50 text-base font-semibold font-['Exo 2'] leading-none">Done (3)</div>
-                    </div>
-                </div>
-                <!-- lines svg -->
-                <div class="w-3.5 h-44 left-0 top-0 absolute">
-                    
-                </div>
-            </div>
-        </div>
-        <div class="w-64 h-4 left-0 top-[512px] absolute">
-            <div class="left-0 top-0 absolute text-zinc-900 text-opacity-50 text-base font-bold font-['Exo 2'] leading-none">Reminders</div>
-        </div>
-        <div class="w-64 h-4 left-0 top-[556px] absolute">
-            <div class="left-0 top-0 absolute text-zinc-900 text-opacity-50 text-base font-bold font-['Exo 2'] leading-none">Messengers</div>
-        </div>
+<div class="flex h-screen relative">
+    <!-- Side Content -->
+    <div class="w-80 fixed inset-y-0">
+      <app-projects-side-content></app-projects-side-content>
     </div>
-    <div class="w-64 h-10 left-[28px] top-[952px] absolute">
-        <div class="w-64 h-10 left-0 top-0 absolute bg-zinc-900 bg-opacity-5 rounded-3xl">
-
-        </div>
-        <div class="w-64 h-8 left-[4px] top-[4px] absolute">
-            <div class="w-32 h-8 left-0 top-0 absolute">
-                <div class="w-32 h-8 left-0 top-0 absolute bg-white rounded-2xl shadow"></div>
-                <div class="w-14 h-5 left-[34px] top-[7px] absolute">
-                  <div class="left-[26px] top-[3px] absolute text-zinc-900 text-sm font-semibold font-['Exo 2'] leading-none">Light</div>
-                  <div class="w-5 h-5 left-0 top-0 absolute"></div>
-                </div>
-            </div>
-            <div class="w-32 h-8 left-[127px] top-0 absolute">
-                <div class="w-32 h-8 left-0 top-0 absolute rounded-2xl"></div>
-                <div class="w-14 h-5 left-[35px] top-[7px] absolute">
-                <div class="left-[26px] top-[3px] absolute text-zinc-900 text-opacity-50 text-sm font-semibold font-['Exo 2'] leading-none">Dark</div>
-                <div class="w-5 h-5 left-0 top-0 absolute opacity-50"></div>
-                </div>
-            </div>
-        </div>
+  
+    <!-- Main Content Area -->
+    <div class="flex-1 flex flex-col ml-80">
+  
+      <!-- Header -->
+      <div class="h-24">
+        <app-projects-header></app-projects-header>
       </div>
-  </div>
+  
+      <!-- Content -->
+      <div class="flex-1">
+        <app-projects-content></app-projects-content>
+      </div>
+  
+    </div>
+</div>
+  
